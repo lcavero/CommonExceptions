@@ -1,0 +1,32 @@
+{
+  "name":         "lcv/api-exception",
+  "description":  "Simple Api Exception class",
+  "homepage":     "https://github.com/lcavero/CommonExceptions.git",
+  "type":         "Library",
+  "keywords":     ["exception","exceptions"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luis Cavero Martínez",
+      "email": "luiscaverodeveloper@gmail.com"
+    }
+  ],
+  "require":      {
+    "php": ">= 7.2",
+    "symfony/http-kernel": "~4.0"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "LCV\\CommonExceptions\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
+
