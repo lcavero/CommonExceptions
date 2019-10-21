@@ -1,5 +1,5 @@
 {
-  "name":         "lcv/api-exception",
+  "name":         "lcv/common-exceptions",
   "description":  "Simple Api Exception class",
   "homepage":     "https://github.com/lcavero/CommonExceptions.git",
   "type":         "Library",
